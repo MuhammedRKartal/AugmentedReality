@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &539159819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6704863525321264703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ce7dd4fbc4b56948b99fc329a4528a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HeroCube: {fileID: 0}
+  EnemyCube: {fileID: 0}
+  enemy:
+    theName: Dragon
+    baseHP: 0
+    curHP: 0
+    baseMP: 0
+    curMP: 0
+    baseATK: 0
+    curATK: 0
+    baseDEF: 0
+    curDEF: 0
+  currentState: 0
+  heroToAttack: {fileID: 0}
+--- !u!1001 &6705851442725005689
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1000012772632390, guid: 86a7fb1b2c315eb448bcc51628bfe01a, type: 3}
+      propertyPath: m_Name
+      value: WarChimera
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012772632390, guid: 86a7fb1b2c315eb448bcc51628bfe01a, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011507698084, guid: 86a7fb1b2c315eb448bcc51628bfe01a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.231
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011507698084, guid: 86a7fb1b2c315eb448bcc51628bfe01a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011507698084, guid: 86a7fb1b2c315eb448bcc51628bfe01a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011507698084, guid: 86a7fb1b2c315eb448bcc51628bfe01a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011507698084, guid: 86a7fb1b2c315eb448bcc51628bfe01a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011507698084, guid: 86a7fb1b2c315eb448bcc51628bfe01a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011507698084, guid: 86a7fb1b2c315eb448bcc51628bfe01a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011507698084, guid: 86a7fb1b2c315eb448bcc51628bfe01a, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011507698084, guid: 86a7fb1b2c315eb448bcc51628bfe01a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011507698084, guid: 86a7fb1b2c315eb448bcc51628bfe01a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011507698084, guid: 86a7fb1b2c315eb448bcc51628bfe01a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011507698084, guid: 86a7fb1b2c315eb448bcc51628bfe01a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5156683
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011507698084, guid: 86a7fb1b2c315eb448bcc51628bfe01a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5156683
+      objectReference: {fileID: 0}
+    - target: {fileID: 4000011507698084, guid: 86a7fb1b2c315eb448bcc51628bfe01a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.515672
+      objectReference: {fileID: 0}
+    - target: {fileID: 64000012600859648, guid: 86a7fb1b2c315eb448bcc51628bfe01a,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 86a7fb1b2c315eb448bcc51628bfe01a, type: 3}
+--- !u!1 &6704863525321264703 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000012772632390, guid: 86a7fb1b2c315eb448bcc51628bfe01a,
+    type: 3}
+  m_PrefabInstance: {fileID: 6705851442725005689}
+  m_PrefabAsset: {fileID: 0}
